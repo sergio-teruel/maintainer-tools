@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright <YEAR(S)> <AUTHOR(S)>
+<!-- Copyright 2018 Carlos Dauden - Tecnativa <carlos.dauden@tecnativa.com>
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 
-<openerp>
-<data>
+<odoo>
 
 <record id="model_name_my_record_demo" model="model.name">
     <!-- My demo record data -->
 </record>
 
-</data>
-</openerp>
+</odoo>

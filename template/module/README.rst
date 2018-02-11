@@ -39,7 +39,7 @@ To use this module, you need to:
    :target: https://runbot.odoo-community.org/runbot/{repo_id}/{branch}
 
 .. repo_id is available in https://github.com/OCA/maintainer-tools/blob/master/tools/repos_with_ids.txt
-.. branch is "8.0" for example
+.. branch is "10.0" for example
 
 Known issues / Roadmap
 ======================
@@ -65,8 +65,7 @@ Images
 Contributors
 ------------
 
-* Firstname Lastname <email.address@example.org> (optional company website url)
-* Second Person <second.person@example.org> (optional company website url)
+* Carlos Dauden <carlos.dauden@tecnativa.com>
 
 Do not contact contributors directly about support or help with technical issues.
 
