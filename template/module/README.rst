@@ -65,7 +65,8 @@ Images
 Contributors
 ------------
 
-* Carlos Dauden <carlos.dauden@tecnativa.com>
+* `Tecnativa <https://www.tecnativa.com>`_:
+  * Carlos Dauden
 
 Do not contact contributors directly about support or help with technical issues.
 
