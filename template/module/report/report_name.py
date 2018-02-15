@@ -6,15 +6,17 @@ from odoo import api, models
 
 
 class Name(models.AbstractModel):
-    _name = "report.module.name_report"
+    report_name = 'module.name_report'
+    _name = 'report.%s' % report_name
 
     @api.multi
-    def render_html(self, data=None):
+    def render_html(self, docids, data=None):
         report_obj = self.env["report"]
-        report = report_obj._get_report_from_name("module.name_report")
+        report = report_obj._get_report_from_name(self.report_name)
+        docs = self.env[report.model].browse(docids)
         docargs = {
-            "doc_ids": self._ids,
-            "doc_model": report.model,
-            "docs": self,
+            'doc_ids': docids,
+            'doc_model': report.model,
+            'docs': docs,
         }
-        return report_obj.render("module.name_report", docargs)
+        return report_obj.render(self.report_name, docargs)
