@@ -1,9 +1,9 @@
-# Copyright 2018 Carlos Dauden - Tecnativa <carlos.dauden@tecnativa.com>
+# Copyright 2018 Tecnativa - Carlos Dauden
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     'name': 'Module name',
     'summary': 'Module summary',
-    'version': '10.0.1.0.0',
+    'version': '11.0.1.0.0',
     'category': 'Uncategorized',
     'website': 'https://github.com/OCA/<repo>/tree/<branch>/<addon>',
     'author': 'Tecnativa, Odoo Community Association (OCA)',
