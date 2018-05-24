@@ -6,7 +6,7 @@
     'summary': 'Module summary',
     'version': '10.0.1.0.0',
     'category': 'Uncategorized',
-    'website': 'https://github.com/OCA/<repo>/tree/<branch>/<addon>',
+    'website': 'https://github.com/OCA/<repo>',
     'author': 'Tecnativa, Odoo Community Association (OCA)',
     'license': 'AGPL-3',
     'application': False,
@@ -31,6 +31,7 @@
         'wizards/wizard_model_view.xml',
     ],
     'demo': [
+        'demo/assets.xml',
         'demo/res_partner_demo.xml',
     ],
     'qweb': [
