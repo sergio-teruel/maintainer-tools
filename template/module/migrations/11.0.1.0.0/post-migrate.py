@@ -1,4 +1,4 @@
-# Copyright 2018 Tecnativa - Carlos Dauden
+# Copyright 2018 Tecnativa - Sergio Teruel
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 
